@@ -1,0 +1,22 @@
+{
+  "name": "haventinnn",
+  "version": "0.1.0",
+  "description": "A tiny command-line utility that prints a greeting and today's date.",
+  "main": "src/index.js",
+  "bin": {
+    "haventinnn": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "greeting"
+  ],
+  "author": "ENTINNN",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
